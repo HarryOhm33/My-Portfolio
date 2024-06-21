@@ -1,4 +1,5 @@
 .navbar {
+  font-family: "Playwrite NZ", cursive;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
