@@ -4,7 +4,7 @@ import logo from "../../assets/logo.svg";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <img src={logo} alt="llogo" />
+      <img src={logo} alt="logo" />
       <ul className="nav-menu">
         <li>Home</li>
         <li>About Me</li>
