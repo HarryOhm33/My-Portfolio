@@ -4,11 +4,12 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  margin: 5rem 10rem;
+  margin: 5rem 8rem;
 }
 
 .services-title {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .services-title h1 {
@@ -29,9 +30,58 @@
   flex-direction: column;
   justify-content: center;
   gap: 1.4rem;
-  padding: 3.5rem;
-  border: 2px solid wheat;
+  padding: 3.2rem;
+  border: 2px solid whitesmoke;
   border-radius: 0.6rem;
   cursor: pointer;
-  cursor: pointer;
+  transition: 0.4s;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.service-format h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.service-format h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  background: linear-gradient(267deg, #da7c25 50%, #b923e1 100.28%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-format p {
+  color: #d4d4d4;
+  font-size: 1.3rem;
+  max-width: 18rem;
+}
+
+.service-readmore {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.2rem;
+}
+
+.service-readmore p {
+  font-family: "Playwrite NZ", cursive;
+  font-size: 1rem;
+}
+
+.service-readmore img {
+  width: 1.2rem;
+}
+
+.service-format:hover {
+  border: 2px solid #b923e1;
+  background: linear-gradient(45deg, #3f0028, #582300);
+  transform: scale(1.05);
 }
