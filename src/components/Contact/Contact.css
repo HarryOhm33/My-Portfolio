@@ -39,7 +39,7 @@
 .contact-left h1 {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(267deg, #43da25 50%, #d61a3c 100%);
+  background: linear-gradient(267deg, #43da25 55%, #d61a3c 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
