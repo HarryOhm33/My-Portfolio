@@ -39,7 +39,7 @@ export default function Contact() {
           <input type="text" name="name" placeholder="Enter Your Name" />
           <label htmlFor="email">Your Email</label>
           <input type="text" name="email" placeholder="Enter Your Email" />
-          <label htmlFor="message"></label>
+          <label htmlFor="message">Write Your Message Here</label>
           <textarea
             name="message"
             placeholder="Enter Your Message"

@@ -24,3 +24,102 @@
   right: 0;
   z-index: -1;
 }
+
+.contact-section {
+  display: flex;
+  gap: 2.6rem;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.contact-left h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(267deg, #43da25 50%, #d61a3c 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-left p {
+  max-width: 36rem;
+  color: #d8d8d8;
+  font-size: 1.05rem;
+  line-height: 1.6rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+  color: #d8d8d8;
+  font-size: 1.6rem;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-detail img {
+  width: 1.5rem;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.contact-right label {
+  color: #d8d8d8;
+  font-size: 1 rem;
+  font-weight: 500;
+}
+
+.contact-right input {
+  border: none;
+  width: 33rem;
+  height: 3.5rem;
+  padding-left: 1.25rem;
+  border-radius: 0.25rem;
+  background: #32323c;
+  color: #a0a0a0;
+  font-family: "Playwrite NZ", cursive;
+  font-size: 0.9rem;
+}
+
+.contact-right textarea {
+  border: none;
+  width: 33rem;
+  height: 12.5rem;
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+  border-radius: 0.25rem;
+  background-color: #32323c;
+  color: #a0a0a0;
+  font-family: "Playwrite NZ", cursive;
+  font-size: 0.9rem;
+}
+
+.contact-right button {
+  border: none;
+  margin-top: 0.9rem;
+  padding: 1.1rem 2.3rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  background: linear-gradient(267deg, #da7c25 -5.09%, #b923e1 106.28%);
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.contact-right button:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
