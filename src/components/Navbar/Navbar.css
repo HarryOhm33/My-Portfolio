@@ -36,3 +36,21 @@
 .nav-connect:hover {
   transform: scale(1.08);
 }
+
+.nav-menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.nav-menu li img {
+  margin: auto;
+  width: 2.3rem;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}

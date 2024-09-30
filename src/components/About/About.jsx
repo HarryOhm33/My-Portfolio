@@ -4,7 +4,7 @@ import about_profile from "../../assets/about_profile.svg";
 
 export default function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1>About Me</h1>
         <img src={theme_pattern} alt="theme" />

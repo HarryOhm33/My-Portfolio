@@ -6,7 +6,7 @@ import location_icon from "../../assets/location_icon.svg";
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="contact-title">
         <h1>Get In Touch</h1>
         <img src={theme_pattern} alt="theme" />
