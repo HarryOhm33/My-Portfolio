@@ -13,7 +13,7 @@ export default function Footer() {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-Left">
+        <p className="footer-bottom-left">
           © 2024 Hari Om. All rights reserved.
         </p>
         <div className="footer-bottom-right">

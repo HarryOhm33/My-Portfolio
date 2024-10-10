@@ -31,9 +31,40 @@
   align-items: center;
   flex-direction: row;
   gap: 2rem;
+  font-size: 0.8rem;
+  font-family: "Playwrite NZ", cursive;
 }
 
 .footer-bottom-right p:hover {
   cursor: pointer;
   text-decoration: 2px solid underline;
+}
+
+@media (max-width: 950px) {
+  .footer {
+    margin: 1rem;
+  }
+
+  .footer-top {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .footer-top img {
+    width: 7rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .footer-bottom-left {
+    font-size: 0.89rem;
+  }
+
+  .footer-bottom-right {
+    gap: 0.5rem;
+    font-size: 0.75rem;
+  }
 }

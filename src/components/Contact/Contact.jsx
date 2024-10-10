@@ -3,8 +3,37 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
+import { useState } from "react";
+
+const apiUrl = import.meta.env.VITE_API_URL;
+const apiKey = import.meta.env.VITE_API_KEY;
 
 export default function Contact() {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", apiKey);
+
+    const response = await fetch(apiUrl, {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("success");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
@@ -34,21 +63,40 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="contact-right">
+        <form onSubmit={onSubmit} className="contact-right">
           <label htmlFor="name">Your Name</label>
-          <input type="text" name="name" placeholder="Enter Your Name" />
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          />
           <label htmlFor="email">Your Email</label>
-          <input type="text" name="email" placeholder="Enter Your Email" />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+          />
           <label htmlFor="message">Write Your Message Here</label>
           <textarea
             name="message"
             placeholder="Enter Your Message"
             rows={8}
+            required
           ></textarea>
-          <button type="submit" className="contact-sumbit">
+          {result == "success" ? (
+            <span>
+              <i class="fa-regular fa-circle-check"></i> Form Submitted
+              Successfully
+            </span>
+          ) : (
+            result
+          )}
+          <button type="submit" className="contact-submit">
             Submit Now
           </button>
-        </div>
+        </form>
       </div>
     </div>
   );
