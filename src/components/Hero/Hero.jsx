@@ -1,6 +1,7 @@
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.svg";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -16,9 +17,9 @@ export default function Hero() {
       <div className="hero-action">
         <div className="hero-connect">
           {" "}
-          <AnchorLink className="anchor-link" offset={10} href="#contact">
+          <Link className="anchor-link" offset={10} to="#contact">
             Connect With Me!
-          </AnchorLink>
+          </Link>
         </div>
         <div className="hero-resume">My Resume</div>
       </div>

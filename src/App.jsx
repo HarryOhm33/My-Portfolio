@@ -1,24 +1,35 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import Services from "./components/Services/Services";
-import MyWork from "./components/MyWork/MyWork";
-import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Landing_page from "./components/landing_page";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Projects from "./components/Projects/Projects";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <>
+        <Navbar />
+        <Landing_page />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/projects",
+    element: (
+      <>
+        <Navbar />
+        <Projects />
+      </>
+    ),
+  },
+]);
 
 const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <MyWork />
-      <Contact />
-      <Footer />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;

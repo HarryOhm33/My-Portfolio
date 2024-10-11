@@ -54,6 +54,8 @@
   margin: 3rem 0;
   transition: 0.5s;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 .mywork-showmore p {

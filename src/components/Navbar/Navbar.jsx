@@ -5,8 +5,8 @@ import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
 
 import { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [menu, setMenu] = useState("home");
@@ -32,41 +32,41 @@ export default function Navbar() {
           className="nav-mob-close"
         />
         <li onClick={() => setMenu("home")}>
-          <AnchorLink className="anchor-link" offset={0} href="#home">
+          <Link className="anchor-link" offset={0} to="/#home">
             <p>Home</p>
-          </AnchorLink>
+          </Link>
           {menu === "home" ? <img src={nav_underline} /> : <></>}
         </li>
         <li onClick={() => setMenu("about")}>
-          <AnchorLink className="anchor-link" offset={10} href="#about">
+          <Link className="anchor-link" offset={10} to="/#about">
             <p>About Me</p>
-          </AnchorLink>
+          </Link>
           {menu === "about" ? <img src={nav_underline} /> : <></>}
         </li>
         <li onClick={() => setMenu("services")}>
-          <AnchorLink className="anchor-link" offset={10} href="#services">
+          <Link className="anchor-link" offset={10} to="/#services">
             <p>Services</p>
-          </AnchorLink>
+          </Link>
           {menu === "services" ? <img src={nav_underline} /> : <></>}
         </li>
         <li onClick={() => setMenu("work")}>
-          <AnchorLink className="anchor-link" offset={10} href="#work">
+          <Link className="anchor-link" offset={10} to="/#work">
             <p>Portfolio</p>
-          </AnchorLink>
+          </Link>
           {menu === "work" ? <img src={nav_underline} /> : <></>}
         </li>
         <li onClick={() => setMenu("contact")}>
-          <AnchorLink className="anchor-link" offset={10} href="#contact">
+          <Link className="anchor-link" offset={10} to="/#contact">
             <p>Contact</p>
-          </AnchorLink>
+          </Link>
           {menu === "contact" ? <img src={nav_underline} /> : <></>}
         </li>
       </ul>
       <div className="nav-connect">
         {" "}
-        <AnchorLink className="anchor-link" offset={10} href="#contact">
+        <Link className="anchor-link" offset={10} to="/#contact">
           Connect With Me!
-        </AnchorLink>
+        </Link>
       </div>
     </div>
   );
