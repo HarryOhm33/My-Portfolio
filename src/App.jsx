@@ -2,9 +2,10 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Landing_page from "./components/landing_page";
+import Projects from "./components/Projects/Projects";
+import Project from "./components/Project/Project";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Projects from "./components/Projects/Projects";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,15 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <Projects />
+      </>
+    ),
+  },
+  {
+    path: "/projects/:projectId",
+    element: (
+      <>
+        <Navbar />
+        <Project />
       </>
     ),
   },

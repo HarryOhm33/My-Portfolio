@@ -1,6 +1,6 @@
 import "./MyWork.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import mywork_data from "../../assets/mywork_data";
+import projects from "../../assets/mywork_data";
 import arrow_icon from "../../assets/arrow_icon.svg";
 
 import { Link } from "react-router-dom";
@@ -13,8 +13,17 @@ export default function MyWork() {
         <img src={theme_pattern} alt="theme" />
       </div>
       <div className="mywork-container">
-        {mywork_data.map((work, index) => {
-          return <img key={index} src={work.w_img} alt="w-image" />;
+        {projects.slice(0, 6).map((project, index) => {
+          return (
+            <Link
+              to={`/projects/${project.id}`}
+              key={project.id}
+              className="project"
+            >
+              <img src={project.image} alt="w-image" />
+              <p>{project.name}</p>
+            </Link>
+          );
         })}
       </div>
       <Link to="/projects" className="mywork-showmore">
