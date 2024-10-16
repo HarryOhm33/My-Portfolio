@@ -12,13 +12,13 @@ const Landing_page = () => {
 
   useEffect(() => {
     if (location.hash) {
-      // Remove the leading "#" from the hash
       const elementId = location.hash.replace("#", "");
 
-      // Scroll to the element if it exists
       const element = document.getElementById(elementId);
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        setTimeout(function () {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 300);
       }
     }
   }, [location]);
