@@ -18,7 +18,7 @@ export default function MyWork() {
             <Link
               to={`/projects/${project.id}`}
               key={project.id}
-              className="project"
+              className="home-project"
             >
               <img src={project.image} alt="w-image" />
               <p>{project.name}</p>

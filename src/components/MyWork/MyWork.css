@@ -31,12 +31,12 @@
   gap: 2.5rem;
 }
 
-.project {
+.home-project {
   text-align: center;
   text-decoration: none;
 }
 
-.project img {
+.home-project img {
   box-sizing: border-box;
   height: 13rem;
   width: 23rem;
@@ -45,12 +45,12 @@
   cursor: pointer;
 }
 
-.project img:hover {
+.home-project img:hover {
   transform: scale(1.08);
   border: 4px solid #ff00ff;
 }
 
-.project p {
+.home-project p {
   margin: 1rem 0rem;
   font-size: 1.3rem;
   color: white;
@@ -104,17 +104,17 @@
     gap: 1.5rem;
   }
 
-  .project {
+  .home-project {
     width: 100%;
     height: 100%;
   }
 
-  .project img {
+  .home-project img {
     width: 98%;
     height: 80%;
   }
 
-  .project p {
+  .home-project p {
     margin: 0.5rem 0rem;
     font-size: 1.2rem;
   }
