@@ -4,8 +4,14 @@ import Footer from "./components/Footer/Footer";
 import Landing_page from "./components/landing_page";
 import Projects from "./components/Projects/Projects";
 import Project from "./components/Project/Project";
+import Error_page from "./components/Error_Page/Error_page";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Navigate,
+} from "react-router-dom";
+import Service from "./components/Service/Service";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +30,7 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <Projects />
+        <Footer />
       </>
     ),
   },
@@ -33,6 +40,29 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <Project />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/services/:serviceId",
+    element: (
+      <>
+        <Navbar />
+        <Service />
+      </>
+    ),
+  },
+  {
+    path: "/services",
+    element: <Navigate to="/#services" replace />,
+  },
+  {
+    path: "*",
+    element: (
+      <>
+        <Navbar />
+        <Error_page />
       </>
     ),
   },

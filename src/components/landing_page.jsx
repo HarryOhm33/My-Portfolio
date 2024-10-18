@@ -18,7 +18,7 @@ const Landing_page = () => {
       if (element) {
         setTimeout(function () {
           element.scrollIntoView({ behavior: "smooth" });
-        }, 300);
+        }, 150);
       }
     }
   }, [location]);

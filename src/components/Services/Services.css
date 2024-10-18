@@ -28,7 +28,7 @@
 .services-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 2.5rem;
+  gap: 2.3rem;
   margin-bottom: 5rem;
 }
 
@@ -69,6 +69,8 @@
   align-items: center;
   gap: 0.6rem;
   margin-top: 1.2rem;
+  text-decoration: none;
+  color: white;
 }
 
 .service-readmore p {
