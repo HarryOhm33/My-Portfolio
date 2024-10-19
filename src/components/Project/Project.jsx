@@ -2,16 +2,21 @@ import "./Project.css";
 import mywork_data from "../../assets/mywork_data";
 import theme_pattern from "../../assets/theme_pattern.svg";
 
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const Project = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const params = useParams();
 
   const project = mywork_data.find((item) => item.id == params.projectId);
 
   if (!project) {
-    return <div>Project not found</div>;
+    return <Navigate to="/error" replace />;
   }
 
   return (
