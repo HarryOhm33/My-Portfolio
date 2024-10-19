@@ -1,5 +1,6 @@
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.svg";
+import resume from "../../assets/resume.pdf";
 
 import { Link } from "react-router-dom";
 
@@ -16,12 +17,13 @@ export default function Hero() {
       </p>
       <div className="hero-action">
         <div className="hero-connect">
-          {" "}
-          <Link className="anchor-link" offset={10} to="#contact">
-            Connect With Me!
-          </Link>
+          <Link to="/#contact">Connect With Me!</Link>
         </div>
-        <div className="hero-resume">My Resume</div>
+        <div className="hero-resume">
+          <a href={resume} download="Hari Om.pdf">
+            My Resume
+          </a>
+        </div>
       </div>
     </div>
   );

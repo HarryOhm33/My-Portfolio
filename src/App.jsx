@@ -58,13 +58,17 @@ const router = createBrowserRouter([
     element: <Navigate to="/#services" replace />,
   },
   {
-    path: "*",
+    path: "/error",
     element: (
       <>
         <Navbar />
         <Error_Page />
       </>
     ),
+  },
+  {
+    path: "*",
+    element: <Navigate to="/error" replace />,
   },
 ]);
 
