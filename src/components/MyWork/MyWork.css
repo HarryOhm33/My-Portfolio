@@ -14,11 +14,12 @@
 
 .mywork-title h1 {
   padding: 0rem 2rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 600;
 }
 
 .mywork-title img {
+  width: 60%;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -62,8 +63,8 @@
   gap: 1rem;
   border: 2px solid white;
   border-radius: 3rem;
-  padding: 1.1rem 1.9rem;
-  margin: 3rem 0;
+  padding: 0.8rem 1.2rem;
+  margin: 2rem 0;
   transition: 0.5s;
   cursor: pointer;
   text-decoration: none;
@@ -71,16 +72,16 @@
 }
 
 .mywork-showmore p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
 .mywork-showmore img {
-  width: 1.5rem;
+  width: 1.3rem;
 }
 
 .mywork-showmore:hover {
-  gap: 2.3rem;
+  gap: 2rem;
 }
 
 @media (max-width: 1100px) {

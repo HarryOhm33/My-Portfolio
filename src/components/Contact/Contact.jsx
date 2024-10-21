@@ -3,6 +3,7 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
+
 import { useState } from "react";
 
 const apiUrl = import.meta.env.VITE_API_URL;
@@ -13,6 +14,7 @@ export default function Contact() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
+
     setResult("Sending....");
     const formData = new FormData(event.target);
 
@@ -26,11 +28,11 @@ export default function Contact() {
     const data = await response.json();
 
     if (data.success) {
-      setResult("success");
+      setResult("Success!!");
       event.target.reset();
     } else {
       console.log("Error", data);
-      setResult(data.message);
+      setResult("Some Error Occurred!!");
     }
   };
 
@@ -87,7 +89,7 @@ export default function Contact() {
           ></textarea>
           {result == "success" ? (
             <span>
-              <i class="fa-regular fa-circle-check"></i> Form Submitted
+              <i className="fa-regular fa-circle-check"></i> Form Submitted
               Successfully
             </span>
           ) : (

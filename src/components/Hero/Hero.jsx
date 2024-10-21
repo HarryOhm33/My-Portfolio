@@ -12,8 +12,9 @@ export default function Hero() {
         <span>I'm Hari Om</span>, Full Stack Web Developer Based In India
       </h1>
       <p>
-        I'm a full stack web developer, who is looking forward to learn by
-        making mistakes.
+        I am a full-stack web developer dedicated to continuous learning through
+        hands-on experience and embracing challenges as opportunities for
+        growth.
       </p>
       <div className="hero-action">
         <div className="hero-connect">

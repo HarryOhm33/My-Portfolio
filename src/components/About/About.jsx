@@ -16,12 +16,16 @@ export default function About() {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am an Full-Stack Web Developer. Throughout my career, I have had
-              many bumps and I have worked on many real-life projects.
+              I am a Full-Stack Web Developer with experience in delivering
+              real-world projects. My career has been marked by challenges that
+              have enhanced my skills and expertise in creating innovative
+              solutions.
             </p>
             <p>
-              My passion for web development is reflected in the enthusiasm and
-              dedication I bring to each project.
+              My passion for web development is evident in the enthusiasm and
+              dedication I bring to every project. I focus on delivering quality
+              solutions that enhance user satisfaction and meet client
+              expectations.
             </p>
           </div>
           <div className="about-skills">
@@ -55,13 +59,13 @@ export default function About() {
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>10+</h1>
+          <h1>5+</h1>
           <p>LIVE PROJECTS</p>
         </div>
         <hr />
         <div className="about-achievement">
           <h1>5+</h1>
-          <p>HAPPY CLIENTS</p>
+          <p>TECHNOLOGIES USED</p>
         </div>
       </div>
     </div>
