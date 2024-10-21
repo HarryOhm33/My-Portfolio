@@ -63,7 +63,12 @@
   font-family: "Playwrite NZ", cursive;
 }
 
-.footer-bottom-right p:hover {
+.footer-bottom-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom-right a:hover {
   cursor: pointer;
   text-decoration: 2px solid underline;
 }
