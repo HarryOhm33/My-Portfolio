@@ -23,7 +23,7 @@ const Project = () => {
     <div className="project">
       <Link to="/projects" className="project-goback">
         <i class="fa-solid fa-arrow-left" />
-        &nbsp; Previous Page
+        &nbsp; All Projects
       </Link>
       <img src={project.image} alt="project-pic" className="project-img" />
       <div className="project-title">

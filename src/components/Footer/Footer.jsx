@@ -5,12 +5,29 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-top">
-        <img src={logo} alt="" />
-        <p>
-          I'm a full stack web developer with experience on many live projects,
-          who is looking forward to learn by making mistakes.
-        </p>
+        <div className="footer-top-left">
+          <img src={logo} alt="" />
+          <p>
+            I'm a full stack web developer with experience on many live
+            projects, who is looking forward to learn by making mistakes.
+          </p>
+        </div>
+        <div className="footer-top-right">
+          <a href="https://www.linkedin.com/in/harryohm33/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/HarryOhm33/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/harryohm33/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://x.com/HarryOhm33" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
       </div>
+
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">

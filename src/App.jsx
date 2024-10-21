@@ -50,6 +50,7 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <Service />
+        <Footer />
       </>
     ),
   },
