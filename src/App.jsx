@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Landing_page from "./components/landing_page";
 import Projects from "./components/Projects/Projects";
 import Project from "./components/Project/Project";
-import Error_Page from "./components/Error_Page/Error_page";
+import Error_Page from "./components/Error_Page/Error_Page";
 
 import {
   createBrowserRouter,
