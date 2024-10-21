@@ -25,6 +25,10 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/work",
+    element: <Navigate to="/#work" replace />,
+  },
+  {
     path: "/projects",
     element: (
       <>
