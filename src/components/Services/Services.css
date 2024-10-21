@@ -110,8 +110,8 @@
 
   .services-container {
     grid-template-columns: 1fr 1fr;
-    gap: 1.1rem;
-    margin: 0 1rem;
+    gap: 1rem;
+    margin: 0 1.2rem;
     margin-bottom: 5rem;
   }
 
