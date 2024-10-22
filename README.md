@@ -1,6 +1,5 @@
 Here’s the updated `README.md` file with the `_redirects` section removed:
 
-````markdown
 # My Portfolio Website
 
 Welcome to my portfolio website! This project showcases my skills and experience as a Full-Stack Web Developer. The website is built using React and is deployed on Netlify. It includes several sections, such as an introduction, services, projects, and contact information, with form submission handling powered by Web3Forms.
@@ -49,6 +48,7 @@ To run this project locally, follow these steps:
    git clone hhttps://github.com/HarryOhm33/My-Portfolio
    cd My-Portfolio
    ```
+
 ````
 
 2. **Install dependencies**:
@@ -109,3 +109,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ```
 
 ```
+````
