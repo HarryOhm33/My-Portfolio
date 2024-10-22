@@ -60,8 +60,8 @@ To run this project locally, follow these steps:
    Create a `.env` file in the root of your project with the following environment variables:
 
    ```bash
-   VITE_API_URL=your_api_url
-   VITE_API_KEY=your_api_key
+   VITE_API_URL=your_web3form_api_url
+   VITE_API_KEY=your_web3form_api_key
    ```
 
 4. **Run the development server**:
