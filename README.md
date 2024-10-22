@@ -8,6 +8,7 @@ Welcome to my portfolio website! This project showcases my skills and experience
 
 - [Overview](#overview)
 - [Features](#features)
+- [Live Website](#live-website)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Deploying to Netlify](#deploying-to-netlify)
@@ -19,7 +20,7 @@ Welcome to my portfolio website! This project showcases my skills and experience
 
 This portfolio website serves as a platform to showcase my projects, technical skills, and experience in web development. Visitors can view live demos of my projects and contact me via the integrated contact form.
 
-### Live Website
+## Live Website
 
 Check out the live version of the website [here](https://harryohm33.netlify.app/).
 
