@@ -45,12 +45,11 @@ Check out the live version of the website [here](https://harryohm33.netlify.app/
 To run this project locally, follow these steps:
 
 1. **Clone the repository**:
+
    ```bash
    git clone hhttps://github.com/HarryOhm33/My-Portfolio
    cd My-Portfolio
    ```
-
-````
 
 2. **Install dependencies**:
 
@@ -110,4 +109,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ```
 
 ```
-````
+
+```
+
+```
