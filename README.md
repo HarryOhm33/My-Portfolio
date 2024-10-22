@@ -13,7 +13,6 @@ Welcome to my portfolio website! This project showcases my skills and experience
 - [Setup and Installation](#setup-and-installation)
 - [Deploying to Netlify](#deploying-to-netlify)
 - [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -72,6 +71,7 @@ To run this project locally, follow these steps:
    ```
 
 5. **Build the project for production**:
+
    ```bash
    npm run build
    ```
@@ -82,13 +82,17 @@ To deploy this project on Netlify:
 
 1. **Connect your GitHub repository** to Netlify via their dashboard.
 2. **Set build command**:
+
    ```bash
    npm run build
    ```
+
 3. **Set publish directory**:
+
    ```bash
    dist
    ```
+
 4. **Add environment variables** in the Netlify dashboard under the project settings.
 
 ## Environment Variables
@@ -97,10 +101,6 @@ The project requires the following environment variables:
 
 - `VITE_API_URL`: The Web3Forms API endpoint for handling form submissions.
 - `VITE_API_KEY`: Your Web3Forms API key.
-
-## Contributing
-
-Feel free to submit a pull request if you'd like to contribute to this project! Fork the repository, create a new branch, and submit your PR.
 
 ## License
 
