@@ -1,0 +1,31 @@
+.terms-of-services {
+  margin: 4rem 8rem;
+  /* text-align: center; */
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.terms-of-services h2 {
+  margin: 1rem 0;
+}
+
+.terms-of-services p {
+  margin-left: 1.5rem;
+}
+
+.head p {
+  margin-left: 0;
+}
+
+.terms-of-services li {
+  margin-left: 2rem;
+}
+
+@media (max-width: 630px) {
+  .terms-of-services {
+    margin: 2rem;
+  }
+}

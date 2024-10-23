@@ -37,8 +37,8 @@ export default function Footer() {
           © 2024 Hari Om. All rights reserved.
         </p>
         <div className="footer-bottom-right">
-          <p>Term of Services</p>
-          <p>Privacy Policy</p>
+          <Link to="/terms_of_services">Term of Services</Link>
+          <Link to="/privacy_policy">Privacy Policy</Link>
           <Link to="/#contact">Connect with me</Link>
         </div>
       </div>

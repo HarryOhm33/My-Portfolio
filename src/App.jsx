@@ -5,6 +5,8 @@ import Landing_page from "./components/landing_page";
 import Projects from "./components/Projects/Projects";
 import Project from "./components/Project/Project";
 import Error_Page from "./components/Error_Page/Error_page";
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
+import TermsOfService from "./components/TermsOfService/TermsOfService";
 
 import {
   createBrowserRouter,
@@ -61,6 +63,26 @@ const router = createBrowserRouter([
   {
     path: "/services",
     element: <Navigate to="/#services" replace />,
+  },
+  {
+    path: "/privacy_policy",
+    element: (
+      <>
+        <Navbar />
+        <PrivacyPolicy />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/terms_of_services",
+    element: (
+      <>
+        <Navbar />
+        <TermsOfService />
+        <Footer />
+      </>
+    ),
   },
   {
     path: "/error",
