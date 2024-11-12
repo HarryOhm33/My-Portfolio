@@ -1,5 +1,5 @@
 import "./Hero.css";
-import profile_img from "../../assets/profile_img.png";
+import profile_img from "../../assets/profile_img.svg";
 import resume from "../../assets/resume.pdf";
 
 import { Link } from "react-router-dom";
