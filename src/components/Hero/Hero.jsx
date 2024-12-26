@@ -21,7 +21,7 @@ export default function Hero() {
           <Link to="/#contact">Connect With Me!</Link>
         </div>
         <div className="hero-resume">
-          <a href={resume} target="_blank">
+          <a href={resume} target="Hari Om">
             My Resume
           </a>
         </div>
