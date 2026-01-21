@@ -1,3 +1,9 @@
+import pratibha_kosh from "../assets/projects_photo/pratibha_kosh.png";
+import miitie from "../assets/projects_photo/miitie.png";
+import mic_on_mithila from "../assets/projects_photo/mic_on_mithila.png";
+import feedx from "../assets/projects_photo/feedx.png";
+import icmit_2025 from "../assets/projects_photo/icmit_2025.png";
+import time_capsule from "../assets/projects_photo/time_capsule.png";
 import portfolio from "../assets/projects_photo/portfolio.png";
 import random_quotes from "../assets/projects_photo/random-quotes.png";
 import samarpan from "../assets/projects_photo/samarpan.png";
@@ -7,6 +13,12 @@ import wonderlust from "../assets/projects_photo/wonderlust.png";
 import spotify_clone from "../assets//projects_photo/spotify-clone.png";
 import amazon_clone from "../assets/projects_photo/amazon_clone.png";
 
+import pratibha_kosh_icon from "../assets/project_icons/pratibha_kosh_icon.png";
+import miitie_icon from "../assets/project_icons/miitie_icon.png";
+import mic_on_mithila_icon from "../assets/project_icons/mic_on_mithila_icon.png";
+import feedx_icon from "../assets/project_icons/feedx_icon.png";
+import icmit_2025_icon from "../assets/project_icons/icmit_2025_icon.png";
+import time_capsule_icon from "../assets/project_icons/time_icon.png";
 import portfolio_icon from "../assets/project_icons/portfolio_icon.jpg";
 import wonderlust_icon from "../assets/project_icons/wonderlust_icon.jpg";
 import weather_icon from "../assets/project_icons/weather_icon.png";
@@ -17,6 +29,105 @@ import spotify_icon from "../assets/project_icons/spotify_icon.png";
 import amazon_icon from "../assets/project_icons/amazon_icon.png";
 
 const projects = [
+  {
+    id: "c4a9d72e-8f31-4b6a-9e2a-7d5f3a1c6e98",
+    name: "Pratibha-Kosh – Student Achievement Management Platform",
+    description:
+      "Pratibha-Kosh is a centralized web platform developed to help students manage academic and extracurricular achievements while enabling institutions to streamline certificate verification and approval workflows. The system provides role-based dashboards for students, faculty, and administrators and incorporates AI-driven career guidance to assist students in aligning achievements with future career paths. Designed for scalability and structured data management, the platform improves transparency and efficiency in student achievement tracking.",
+    miniDescription:
+      "A role-based platform for managing student achievements and certificates.",
+    technologies: [
+      "ReactJs",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+      "Gemini API",
+    ],
+    githubLink: "https://github.com/HarryOhm33/Student-Hub",
+    hostedLink: "https://pratibha-kosh.netlify.app/",
+    image: pratibha_kosh,
+    icon: pratibha_kosh_icon,
+  },
+  {
+    id: "e91c7b24-5b3f-4d6a-9a8c-6e2f4d1a9b77",
+    name: "MIITIE – College Startup & Incubation Cell Website",
+    description:
+      "The MIITIE website is the official digital platform for the college startup and incubation cell, built to manage incubation programs, startup teams, mentors, and institutional events. The platform leverages Firebase for real-time data storage and updates, ensuring seamless management of events and incubatee information. It also integrates Amazon SES to send 100+ bulk emails and newsletters to incubatees and stakeholders in a single delivery. Designed for reliability and accessibility, the website serves as the primary digital presence of the incubation cell and receives regular daily visitors.",
+    miniDescription:
+      "Startup cell website using Firebase and Amazon SES for real-time data and bulk emails.",
+    technologies: [
+      "ReactJs",
+      "Firebase",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Amazon SES",
+    ],
+    githubLink: "https://github.com/HarryOhm33/MIITIE",
+    hostedLink: "https://miitie.org",
+    image: miitie,
+    icon: miitie_icon,
+  },
+  {
+    id: "b7d2e914-4c63-41e8-9f21-8a6d4c9b5f02",
+    name: "Mic on Mithila – Show Listing & Ticket Booking Platform",
+    description:
+      "Mic on Mithila is a production-ready web platform built and deployed within 5 days to manage show listings, schedules, and online ticket bookings for live events. The platform includes an admin dashboard for managing shows and bookings and integrates secure online payments using Cashfree. Built with React and Firebase, the system ensures fast performance, real-time data updates, and a seamless booking experience for users.",
+    miniDescription:
+      "A live event listing and ticket booking platform built in 5 days.",
+    technologies: [
+      "ReactJs",
+      "Firebase",
+      "Cashfree",
+      "JavaScript",
+      "HTML",
+      "CSS",
+    ],
+    githubLink: "",
+    hostedLink: "https://miconmithila.in",
+    image: mic_on_mithila,
+    icon: mic_on_mithila_icon,
+  },
+  {
+    id: "a3f7c921-6b2e-4c1d-9d54-2f8b7c3e41ab",
+    name: "FeedX – HR Feedback & Goal Management Platform",
+    description:
+      "FeedX is a web-based HR platform designed to streamline continuous feedback, goal tracking, and performance evaluation within organizations. The system supports real-time 360-degree feedback, role-based dashboards for employees, managers, and HR teams, and structured performance insights. The project was recognized as the Problem Statement Winner at HackFest’25 (GoFloww’s Atom HR track) for delivering a scalable and production-ready HR-tech solution. Built with scalability and data consistency in mind, FeedX enables transparent feedback cycles and goal alignment across teams in fast-paced work environments.",
+    miniDescription:
+      "HackFest’25 winning HR platform for feedback and goal management.",
+    technologies: ["MongoDB", "Express.js", "ReactJs", "Node.js", "JavaScript"],
+    githubLink: "https://github.com/HarryOhm33/FeedX",
+    hostedLink: "https://feedxmarkii.netlify.app/",
+    image: feedx,
+    icon: feedx_icon,
+  },
+  {
+    id: "6c2f9a41-1d7b-4f88-9c5e-b1e8d6a47f32",
+    name: "ICMIT 2025 Conference Website",
+    description:
+      "The ICMIT 2025 website is the official digital platform for the 1st International Conference on Mechanical & Industrial Technologies. It provides comprehensive information on the conference theme, schedules, keynote speakers, paper submission guidelines, publications, and important announcements. Designed with a professional academic layout, the website ensures clear navigation, responsiveness across devices, and accessibility for a global audience.",
+    miniDescription:
+      "Official website for the ICMIT 2025 international conference.",
+    technologies: ["ReactJs", "CSS", "HTML", "JavaScript"],
+    githubLink: "https://github.com/HarryOhm33/IC-MIT",
+    hostedLink: "https://icmit.co.in/",
+    image: icmit_2025,
+    icon: icmit_2025_icon,
+  },
+  {
+    id: "9b8e7c12-3a45-4f9e-8d21-cc8d9f2a6b10",
+    name: "Time Capsule 2.0",
+    description:
+      "Time Capsule 2.0 is a web-based application that allows users to store messages, memories, or media securely and unlock them at a future date. The platform focuses on privacy, timed content delivery, and a clean user experience. It features user authentication, scheduled content release, and a responsive UI optimized for both desktop and mobile devices. Built with scalability and simplicity in mind, the application ensures reliable storage and controlled access to time-locked content.",
+    miniDescription:
+      "A time-locked digital capsule for storing and unlocking memories.",
+    technologies: ["ReactJs", "Node.js", "Express.js", "MongoDB", "CSS"],
+    githubLink: "https://github.com/HarryOhm33/TimeCapsule",
+    hostedLink: "https://time-capsule-404.netlify.app/",
+    image: time_capsule,
+    icon: time_capsule_icon,
+  },
   {
     id: "f4d42d98-ceb5-446d-ac7e-c1dbec23fc1c",
     name: "My Portfolio",

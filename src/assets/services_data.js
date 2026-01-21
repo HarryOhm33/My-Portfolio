@@ -1,78 +1,72 @@
 const Services_Data = [
   {
     s_no: "01",
-    s_id: "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    s_name: "MERN-Stack Web Development",
+    s_id: "8c9b4f2a-6e2d-4f6a-9d91-3c0a8e7c1f21",
+    s_name: "Product & Platform Development",
     s_desc:
-      "As a full-stack MERN developer, I build robust web applications using MongoDB, Express.js, React, and Node.js. From creating responsive front-ends to managing scalable back-end architectures, I ensure seamless user experiences and efficient server-side operations. My expertise lies in delivering feature-rich, performance-optimized applications that meet modern business needs.",
-    mini_desc:
-      "Expert in developing web applications using the full MERN stack.",
+      "Designing and building complete digital products from idea to production, including dashboards, role-based systems, and scalable architectures tailored for real-world use.",
+    mini_desc: "End-to-end product development.",
     related_projects: [
-      "6da79f81-e547-45a6-81e1-073e846d8465",
-      "d2df95bd-3cf5-4d0f-a181-e4fe7296a90f",
+      "a3f7c921-6b2e-4c1d-9d54-2f8b7c3e41ab", // FeedX
+      "c4a9d72e-8f31-4b6a-9e2a-7d5f3a1c6e98", // Pratibha-Kosh
     ],
   },
   {
     s_no: "02",
-    s_id: "3c9c5f5b-5a65-4b1f-8d47-e5b187e2260d",
-    s_name: "RESTful API Development",
+    s_id: "f1e3c7a4-91b8-4c2f-9a6d-7b8c3d2e4a10",
+    s_name: "Backend Engineering & APIs",
     s_desc:
-      "Expert in developing RESTful APIs with Node.js and Express, focusing on designing scalable APIs that handle high traffic and complex business logic. I also specialize in integrating APIs with various third-party platforms.",
-    mini_desc:
-      "Building scalable RESTful APIs and integrating with third-party platforms.",
+      "Building secure and scalable backend systems, REST APIs, authentication flows, and business logic with production-ready practices.",
+    mini_desc: "Scalable backend systems & APIs.",
     related_projects: [
-      "6da79f81-e547-45a6-81e1-073e846d8465",
-      "d2df95bd-3cf5-4d0f-a181-e4fe7296a90f",
+      "a3f7c921-6b2e-4c1d-9d54-2f8b7c3e41ab", // FeedX
+      "9b8e7c12-3a45-4f9e-8d21-cc8d9f2a6b10", // Time Capsule 2.0
     ],
   },
   {
     s_no: "03",
-    s_id: "0f9f3b2e-4e3f-4b68-b7b2-2b6e69d24b1f",
-    s_name: "Interactive React Front-End Design",
+    s_id: "2d8f6a3c-4e5b-47a1-9c92-1b7f8a3e6d55",
+    s_name: "Real-Time Systems",
     s_desc:
-      "I create interactive and responsive user interfaces using React, utilizing component-based architecture to deliver fast and scalable front-end solutions with optimized performance for various devices.",
-    mini_desc:
-      "Developing responsive and interactive UIs using React for optimal performance.",
+      "Developing real-time features such as chat systems, notifications, and signaling servers using WebSockets with low-latency and scalability in mind.",
+    mini_desc: "Real-time apps & live features.",
     related_projects: [
-      "f4d42d98-ceb5-446d-ac7e-c1dbec23fc1c",
-      "8263962e-de8f-4a34-a7d1-19231fbb3631",
+      "a3f7c921-6b2e-4c1d-9d54-2f8b7c3e41ab", // FeedX
     ],
   },
   {
     s_no: "04",
-    s_id: "a65d6639-3ab4-4396-9aa3-d5a3e5f16783",
-    s_name: "Node.js Backend Development",
+    s_id: "6a4c9e1b-72d3-4f82-8b5a-9e3d7c2f1a88",
+    s_name: "Full Stack Web Applications",
     s_desc:
-      "Combining the power of Node.js and Express.js to build secure, scalable back-end systems, managing tasks like database interactions, API services, real-time applications, and middleware integration.",
-    mini_desc: "Creating robust back-end solutions with Node.js and Express.",
+      "Building modern, responsive web applications with clean UI/UX and tightly integrated frontends and backends.",
+    mini_desc: "Modern full stack web apps.",
     related_projects: [
-      "6da79f81-e547-45a6-81e1-073e846d8465",
-      "d2df95bd-3cf5-4d0f-a181-e4fe7296a90f",
+      "b7d2e914-4c63-41e8-9f21-8a6d4c9b5f02", // Mic on Mithila
+      "f4d42d98-ceb5-446d-ac7e-c1dbec23fc1c", // Portfolio
     ],
   },
   {
     s_no: "05",
-    s_id: "8b40e1c7-e0b6-4c0e-83b2-42bb51a454b5",
-    s_name: "MongoDB Data Handling",
+    s_id: "3f9d2b8e-1a6c-4f4a-97c8-5e6b7d9a2c11",
+    s_name: "Cloud & Deployment Solutions",
     s_desc:
-      "As a full-stack developer, I use MongoDB for basic database management, handling tasks like creating, reading, updating, and deleting records. I structure databases to meet application needs while maintaining efficient data storage and retrieval.",
-    mini_desc: "Managing MongoDB databases for efficient data operations.",
-    related_projects: ["6da79f81-e547-45a6-81e1-073e846d8465"],
+      "Deploying and managing applications on cloud platforms with environment setup, scalability considerations, and production monitoring.",
+    mini_desc: "Cloud deployment & infrastructure.",
+    related_projects: [
+      "e91c7b24-5b3f-4d6a-9a8c-6e2f4d1a9b77", // MIITIE
+    ],
   },
   {
     s_no: "06",
-    s_id: "d98f8de3-e4f2-4a86-8736-f2bbd47895e6",
-    s_name: "Raw Front-End Development",
+    s_id: "9b6e1a4d-5f2c-48e7-b7a3-2d8c9f4e6a90",
+    s_name: "Payment, Booking & Communication Systems",
     s_desc:
-      "I build responsive, user-friendly front-end applications using vanilla (raw) HTML, CSS, and JavaScript. I specialize in creating clean, accessible designs and implementing interactive features that enhance user experience.",
-    mini_desc:
-      "Developing front-end apps using vanilla HTML, CSS, and JavaScript.",
+      "Implementing secure payment workflows, booking systems, and bulk email or notification services for real-world platforms.",
+    mini_desc: "Payments, booking & email systems.",
     related_projects: [
-      "6da79f81-e547-45a6-81e1-073e846d8465",
-      "966717b9-af7f-4ef6-a70a-7376137af700",
-      "a93cea12-5f39-4e42-b8ef-fdd945f83432",
-      "1ae1e70c-77df-48cb-8bb8-b2319f629d2b",
-      "6d100272-5a41-4c27-8227-bd6a888f28f6",
+      "b7d2e914-4c63-41e8-9f21-8a6d4c9b5f02", // Mic on Mithila
+      "e91c7b24-5b3f-4d6a-9a8c-6e2f4d1a9b77", // MIITIE
     ],
   },
 ];
