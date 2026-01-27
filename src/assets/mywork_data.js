@@ -148,7 +148,7 @@ const projects = [
     miniDescription: "A travel-themed project built with JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
     githubLink: "https://github.com/HarryOhm33/Wonderlust",
-    hostedLink: "http://wonderlust-3tfn.onrender.com",
+    hostedLink: "https://wonderlust-3tfn.onrender.com",
     image: wonderlust,
     icon: wonderlust_icon,
   },
